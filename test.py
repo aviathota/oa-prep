@@ -1,8 +1,5 @@
-a = "hello"
-print(sorted(a))
+a = "".join("hello")
+print(a)
 
-b = "elloh"
-print(sorted(b))
-
-print(sorted(a) == sorted(b))
-print(tuple(sorted(a)) == tuple(sorted(b)))
+b = " | ".join(c for c in a)
+print(b)
