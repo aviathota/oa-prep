@@ -1,5 +1,9 @@
-a = "".join("hello")
-print(a)
+t = [] 
+print(len(t))
 
-b = " | ".join(c for c in a)
-print(b)
+t.append(6)
+t.append(5)
+t.pop()
+
+print(len(t))
+print(t)
